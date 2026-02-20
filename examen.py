@@ -38,7 +38,7 @@ def buscar_cuenta(numero):
         if cuenta.numero_cuenta==numero:
             return cuenta
         return None
-def realizar_deposito()
+def realizar_deposito():
     numero= input("Ingrese el numero de cuenta")
     cuenta=buscar_cuenta(numero)
     if cuenta:
@@ -74,7 +74,7 @@ def menu():
         elif opcion=="5":
             print("Saliendo del programa...")
             break
-        else
+        else:
             print("Opcion no valida.")
 if __name__== "__main__":
     menu()
